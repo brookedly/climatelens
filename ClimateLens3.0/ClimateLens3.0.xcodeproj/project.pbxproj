@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B604AA40203D21C500AD835D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B604AA3F203D21C500AD835D /* AppDelegate.swift */; };
+		B604AA42203D21C500AD835D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B604AA41203D21C500AD835D /* ViewController.swift */; };
+		B604AA45203D21C500AD835D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B604AA43203D21C500AD835D /* Main.storyboard */; };
+		B604AA48203D21C500AD835D /* ClimateLens3_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B604AA46203D21C500AD835D /* ClimateLens3_0.xcdatamodeld */; };
+		B604AA4A203D21C500AD835D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B604AA49203D21C500AD835D /* Assets.xcassets */; };
+		B604AA4D203D21C500AD835D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B604AA4B203D21C500AD835D /* LaunchScreen.storyboard */; };
+		B604AA57203E199F00AD835D /* MapNavigationBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B604AA56203E199F00AD835D /* MapNavigationBarVC.swift */; };
+		B604AA59203E1D5200AD835D /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B604AA58203E1D5200AD835D /* SettingsVC.swift */; };
+		B604AA5B203F979500AD835D /* arscreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B604AA5A203F979500AD835D /* arscreenVC.swift */; };
+		B604AA5D203FCFD600AD835D /* tutorialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B604AA5C203FCFD600AD835D /* tutorialVC.swift */; };
+		B604AA5F2043C84600AD835D /* participationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B604AA5E2043C84600AD835D /* participationVC.swift */; };
+		B637F16C2058C2480048086D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B637F16B2058C2480048086D /* CoreLocation.framework */; };
+		B637F16E2058CCA70048086D /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = B637F16D2058CCA70048086D /* Place.swift */; };
+		B64708B72052634700FAD8F8 /* content.xib in Resources */ = {isa = PBXBuildFile; fileRef = B64708B62052634700FAD8F8 /* content.xib */; };
+		B64708B92052640E00FAD8F8 /* contentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64708B82052640E00FAD8F8 /* contentView.swift */; };
+		B64708BB2052657000FAD8F8 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64708BA2052657000FAD8F8 /* OnboardingVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B604AA3C203D21C500AD835D /* ClimateLens3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimateLens3.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B604AA3F203D21C500AD835D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B604AA41203D21C500AD835D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B604AA44203D21C500AD835D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B604AA47203D21C500AD835D /* ClimateLens3_0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClimateLens3_0.xcdatamodel; sourceTree = "<group>"; };
+		B604AA49203D21C500AD835D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B604AA4C203D21C500AD835D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B604AA4E203D21C500AD835D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B604AA56203E199F00AD835D /* MapNavigationBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapNavigationBarVC.swift; sourceTree = "<group>"; };
+		B604AA58203E1D5200AD835D /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		B604AA5A203F979500AD835D /* arscreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = arscreenVC.swift; sourceTree = "<group>"; };
+		B604AA5C203FCFD600AD835D /* tutorialVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tutorialVC.swift; sourceTree = "<group>"; };
+		B604AA5E2043C84600AD835D /* participationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = participationVC.swift; sourceTree = "<group>"; };
+		B637F16B2058C2480048086D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B637F16D2058CCA70048086D /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		B64708B62052634700FAD8F8 /* content.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = content.xib; sourceTree = "<group>"; };
+		B64708B82052640E00FAD8F8 /* contentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = contentView.swift; path = ../contentView.swift; sourceTree = "<group>"; };
+		B64708BA2052657000FAD8F8 /* OnboardingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B604AA39203D21C500AD835D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B637F16C2058C2480048086D /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B604AA33203D21C500AD835D = {
+			isa = PBXGroup;
+			children = (
+				B604AA3E203D21C500AD835D /* ClimateLens3.0 */,
+				B604AA3D203D21C500AD835D /* Products */,
+				B637F16A2058C2480048086D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B604AA3D203D21C500AD835D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B604AA3C203D21C500AD835D /* ClimateLens3.0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B604AA3E203D21C500AD835D /* ClimateLens3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				B64708B82052640E00FAD8F8 /* contentView.swift */,
+				B604AA3F203D21C500AD835D /* AppDelegate.swift */,
+				B604AA41203D21C500AD835D /* ViewController.swift */,
+				B604AA43203D21C500AD835D /* Main.storyboard */,
+				B64708BA2052657000FAD8F8 /* OnboardingVC.swift */,
+				B604AA5E2043C84600AD835D /* participationVC.swift */,
+				B604AA5C203FCFD600AD835D /* tutorialVC.swift */,
+				B604AA5A203F979500AD835D /* arscreenVC.swift */,
+				B604AA58203E1D5200AD835D /* SettingsVC.swift */,
+				B604AA56203E199F00AD835D /* MapNavigationBarVC.swift */,
+				B637F16D2058CCA70048086D /* Place.swift */,
+				B604AA49203D21C500AD835D /* Assets.xcassets */,
+				B604AA4B203D21C500AD835D /* LaunchScreen.storyboard */,
+				B604AA4E203D21C500AD835D /* Info.plist */,
+				B604AA46203D21C500AD835D /* ClimateLens3_0.xcdatamodeld */,
+				B64708B62052634700FAD8F8 /* content.xib */,
+			);
+			path = ClimateLens3.0;
+			sourceTree = "<group>";
+		};
+		B637F16A2058C2480048086D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B637F16B2058C2480048086D /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B604AA3B203D21C500AD835D /* ClimateLens3.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B604AA51203D21C500AD835D /* Build configuration list for PBXNativeTarget "ClimateLens3.0" */;
+			buildPhases = (
+				B604AA38203D21C500AD835D /* Sources */,
+				B604AA39203D21C500AD835D /* Frameworks */,
+				B604AA3A203D21C500AD835D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClimateLens3.0;
+			productName = ClimateLens3.0;
+			productReference = B604AA3C203D21C500AD835D /* ClimateLens3.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B604AA34203D21C500AD835D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Brooke Ly";
+				TargetAttributes = {
+					B604AA3B203D21C500AD835D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = S7R9F6ZQ8N;
+						LastSwiftMigration = 0830;
+					};
+				};
+			};
+			buildConfigurationList = B604AA37203D21C500AD835D /* Build configuration list for PBXProject "ClimateLens3.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B604AA33203D21C500AD835D;
+			productRefGroup = B604AA3D203D21C500AD835D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B604AA3B203D21C500AD835D /* ClimateLens3.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B604AA3A203D21C500AD835D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B604AA4D203D21C500AD835D /* LaunchScreen.storyboard in Resources */,
+				B604AA4A203D21C500AD835D /* Assets.xcassets in Resources */,
+				B604AA45203D21C500AD835D /* Main.storyboard in Resources */,
+				B64708B72052634700FAD8F8 /* content.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B604AA38203D21C500AD835D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B604AA5F2043C84600AD835D /* participationVC.swift in Sources */,
+				B604AA48203D21C500AD835D /* ClimateLens3_0.xcdatamodeld in Sources */,
+				B604AA5B203F979500AD835D /* arscreenVC.swift in Sources */,
+				B604AA42203D21C500AD835D /* ViewController.swift in Sources */,
+				B604AA40203D21C500AD835D /* AppDelegate.swift in Sources */,
+				B64708B92052640E00FAD8F8 /* contentView.swift in Sources */,
+				B604AA5D203FCFD600AD835D /* tutorialVC.swift in Sources */,
+				B64708BB2052657000FAD8F8 /* OnboardingVC.swift in Sources */,
+				B604AA57203E199F00AD835D /* MapNavigationBarVC.swift in Sources */,
+				B637F16E2058CCA70048086D /* Place.swift in Sources */,
+				B604AA59203E1D5200AD835D /* SettingsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B604AA43203D21C500AD835D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B604AA44203D21C500AD835D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B604AA4B203D21C500AD835D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B604AA4C203D21C500AD835D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B604AA4F203D21C500AD835D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B604AA50203D21C500AD835D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B604AA52203D21C500AD835D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ClimateLens3.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs125.ClimateLens3-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B604AA53203D21C500AD835D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ClimateLens3.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs125.ClimateLens3-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B604AA37203D21C500AD835D /* Build configuration list for PBXProject "ClimateLens3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B604AA4F203D21C500AD835D /* Debug */,
+				B604AA50203D21C500AD835D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B604AA51203D21C500AD835D /* Build configuration list for PBXNativeTarget "ClimateLens3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B604AA52203D21C500AD835D /* Debug */,
+				B604AA53203D21C500AD835D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B604AA46203D21C500AD835D /* ClimateLens3_0.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B604AA47203D21C500AD835D /* ClimateLens3_0.xcdatamodel */,
+			);
+			currentVersion = B604AA47203D21C500AD835D /* ClimateLens3_0.xcdatamodel */;
+			path = ClimateLens3_0.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B604AA34203D21C500AD835D /* Project object */;
+}
