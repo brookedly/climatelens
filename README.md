@@ -3,7 +3,8 @@
 Course Project INF 134 Project in User Interaction Software
 
 
-Climate Lens 
+Climate Lens:
+
   Initially, we came into the project with our focus revolving around raising awareness about climate change and 
   motivating users to fight against it through AR. Currently our project has evolved to focusing instead about 
   raising awareness about the urgency and giving users a communal platform to create solutions. The change of 
