@@ -20,7 +20,12 @@ Climate Lens:
   larger communal solution to climate change. 
  
 View Presentation: https://docs.google.com/presentation/d/1G2zxV-RM2MkZsTEnqWqW2EUPjvF2g-r4axFT1YZYMjM/edit?usp=sharing
+Promotional Website: https://moon-dragon.github.io/ClimateLens/
 
 To Launch:
   - compatible with XCode versions 8 and below
   - some UI components are not constrained to auto layouts - therefore, best to simulate on iPhone 6.
+
+
+* DISCLAIMER *
+Project is nonfunctional -- purely based for the course and learning.
